@@ -160,6 +160,8 @@ Each technology (or technology cluster) is assessed against a simple rubric:
 - Data demand drivers over decades (home/work/health/education/industry)
 - Particular focus on "future of life/work" in an AI driven world of abundance, data infrastructure supporting emerging new life patterns.
 - Synergies and co-dependence between fibre and wireless (5G/6G, Wi-Fi, private networks)
+- Where we connect up to very high capacity network routes: research local fibre routes, not aware of any major routes through the Forest City footprint but there is currently high capacity (GBN/LBF) University owned ducting and fibre network which goes as far as Babraham/Hinxton/Fulbourn, possibly Linton now. Also a commercial provider (Xayo) in Haverhill and on a northerly route through Newmarket to a cable landing point at Lowestoft and major providers in the M11/London to Ely rail line corridor.
+
 
 ## Outline thoughts we will report on
 
@@ -168,7 +170,9 @@ Each technology (or technology cluster) is assessed against a simple rubric:
 - Co-design fibre and wireless: densification needs more backhaul, more mounting, and more power
 - Design-in now: copious ducting, comms rooms in multi-unit buildings, risers, rooftop access,
   safe antenna mounting rights, street-furniture power/backhaul points
-- Wildcards: 6G capabilities (including sensing/positioning), satellite back-up, dense edge compute
+- Strategy for extending and POPing interconnect points between major networks and FC carrier neutral facilities as a minimum.
+- Networking vision to to attract anchor carriers and routes to make and maintain FC as a major (=high capacity + low cost) UK redundant network backbone location
+- Wildcards: 6G capabilities (including sensing/positioning), dense edge compute
 
 # Chapter 4 — Digital twins and the Open Source City
 
