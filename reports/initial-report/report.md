@@ -3,6 +3,7 @@
 ## Phase 1 Report High Level Draft 
 
 **Authors:** Rob Pickering (rob@pickering.org),,,
+
 **Status:** Draft v0.0.1 (structure + long-form introduction and executive summary, variable depth of chapter contents)
 
 ---
@@ -68,7 +69,7 @@ Specifically, we aim to:
 
 The Future Proof Technology Working Group is cross-domain. Our role is enabling and challenging. We support functional areas by:
 
-- Highlightingdeveloping technology-driven constraints and opportunities that alter planning assumptions.
+- Highlighting developing technology-driven constraints and opportunities that alter planning assumptions.
 - Identifying "design-in now" provisions that protect optionality.
 - Recommending early standardisation approaches to avoid lock-in and enable competitive ecosystems.
 
