@@ -2,13 +2,13 @@
 
 ## Phase 1 Report High Level Draft 
 
-**Authors:** Rob Pickering (rob@pickering.org),,,
+**Authors:** Rob Pickering (rob@pickering.org)
 
 **Status:** Draft v0.0.1 (structure + long-form introduction and executive summary, variable depth of chapter contents)
 
 ---
 
-## Executive summary (draft, forward-looking placeholder, intentionally provisional at this stage)
+## Executive summary
 
 This report is the Phase 1 output of the Forest City 1 **Future Proof Technology Working Group**. It is intended to inform later phase masterplanning and the detailed business case by highlighting technology shifts that **may** materially affect the shape of the city, and by proposing low-regret "design-in now" provisions that **could** preserve optionality over decades.
 
@@ -20,7 +20,7 @@ The report is organised into **six chapters**, each reflecting a technology doma
 
 ### Chapter 1 — Energy
 
-This chapter will aim to describe plausible energy technology futures affecting affordability, resilience, and environmental performance, with particular attention to electrification, storage, and heat. It will likely frame **heat as a first-class resource**—including waste heat harvesting and the potential role of data centre / edge compute heat recovery where economics and siting constraints make it viable. The chapter will aim to propose design-in now provisions that preserve future flexibility, such as corridor and plant space for heat networks and multi-scale storage readiness, while remaining agnostic about specific technologies and vendors.
+This chapter will aim to describe plausible energy technology futures affecting affordability, resilience, and environmental performance, with particular attention to electrification, storage, and heat. It frames **heat as a first-class resource**—including waste heat harvesting and the potential role of data centre / edge compute heat recovery where economics and siting constraints make it viable. The chapter proposes design-in now provisions that preserve future flexibility, such as corridor and plant space for heat networks and multi-scale storage readiness, while remaining agnostic about specific technologies and vendors.
 
 ### Chapter 2 — Building technology
 
@@ -40,7 +40,7 @@ This chapter will aim to explore tentative futures in which federated smart home
 
 ### Chapter 6 — Miscellaneous technology recommendations (placeholder items)
 
-This chapter will aim to capture pragmatic "no-brainer" requirements that have surfaced during Phase 1 but are not yet analysed in depth. Its role will be to ensure these items remain visible for later phases consideration, and to prompt deeper analysis where needed. 
+This chapter will aim to capture pragmatic "no-brainer" requirements that have surfaced during Phase 1 but are not yet analysed in depth. Its role will be to ensure these items remain visible for later phases' consideration, and to prompt deeper analysis where needed. 
 
 ---
 
@@ -63,7 +63,7 @@ Specifically, we aim to:
 - Make broad technology predictions that inform the way we build the city.
 - Identify wildcard technologies that may plausibly emerge during the build-out and materially change cost, speed, labour availability, carbon performance, resilience, or quality of life.
 - Translate those possibilities into practical "design-in now" requirements so future adoption is cheap and non-disruptive.
-- Provide a transparent logic for prioritisation so that we can scrutinise, challenge, and improve it throughout then build process.
+- Provide a transparent logic for prioritisation so that we can scrutinise, challenge, and improve it throughout the build process.
 
 ### How this group interacts with other specialisations
 
@@ -120,20 +120,102 @@ Each technology (or technology cluster) is assessed against a simple rubric:
 
 # Chapter 1 — Energy
 
-## What this chapter will cover
+## Electricity supply architecture
 
-- Demand shape: electrification, peak loads, seasonal heat, EV fleets, commercial/industrial demand
-- Storage: household → block → district → city scale
-- Heat as a first-class resource: waste heat harvesting and low-temperature heat networks
-- Role of data centre and edge-compute heat recovery (where it works, where it doesn't)
+A city of one million residents will require electricity infrastructure at a scale rarely seen in recent UK developments. Preliminary modelling undertaken by the working group suggests a peak electrical demand on the order of **~460 MVA** if the city is fully electrified across heating, transport and buildings. This may actually be a low estimate once the electrical requirements of the transport system are fed in.
 
-## Outline thoughts we will report on
+This figure should be treated as a **ballpark peak demand requirement**, but it provides a useful basis for evaluating the scale of infrastructure that may ultimately be required.
 
-- Battery trajectories: LiFePO₄ maturity, sodium-ion economics, solid-state prospects, thermal storage
-- Heat pumps + thermal storage + tariffs as a system
-- Waste heat sources: refrigeration, industry, transit systems, and data centres/edge compute
-- Design-in now: heat network corridors, plant space, metering/control interfaces, retrofit pathways
-- Long-intercept storage breakthroughs, concrete batteries, closed loop deep geothermal, industrial-scale heat pumps, grid architecture shifts
+Two broad electricity supply architectures are currently being considered.
+
+### Exclusively grid-supplied electricity model
+
+In the conventional model, the city would rely primarily on the national transmission system for electricity supply.
+
+Electricity would be delivered via **Grid Supply Points (GSPs)** — the substations where electricity from the national transmission network is transferred to regional distribution networks.
+
+Initial investigations suggest that the **nearest primary GSP at Burwell** is already close to full capacity. As a result, it is unlikely that a development on the scale of Forest City could rely solely on this infrastructure.
+
+In practice, the **National Energy System Operator (NESO)** may require that the city connects to **multiple GSPs**, both to provide sufficient capacity and to ensure system resilience. This could imply the construction of **new high-capacity transmission connections and potentially a second GSP-scale connection** serving the development.
+
+Although a number of solar farms exist in the surrounding region, these installations cannot materially reduce the size of grid infrastructure that must be constructed. Transmission systems must be sized assuming **non-production from intermittent sources**, meaning the city must be capable of importing its full peak demand from the grid when renewable generation is unavailable.
+
+Using conventional planning assumptions, providing electricity infrastructure at this scale could involve **capital expenditure in the region of £2.4 billion to £2.8 billion**, depending on the final connection architecture and delivery model.
+
+### Load smoothing and distributed storage
+
+One important factor that could significantly influence the final infrastructure requirement is the **ability to smooth peak demand**.
+
+The headline **~460 MVA peak demand** reflects a conventional planning assumption in which buildings draw power from the grid in real time with limited buffering storage or local generation capacity. However, emerging storage technologies and local generation (primarily solar) make it increasingly possible to shift and smooth electrical demand over time.
+
+Modern **LiFePO₄ (lithium iron phosphate) battery systems** are sufficiently safe and cost-effective to be deployed at domestic scale. A battery pack roughly the size of a household refrigerator can store enough energy to supply a typical property for at least **24 hours of normal operation**, or more or less depending on efficiency and whether other primary heat sources besides electricity are used (see below)
+
+If large numbers of properties within the city were equipped with such storage, with or without local micro generation, and if these systems were orchestrated collectively, the city could effectively operate a **distributed battery fleet**.
+
+Such an approach could allow:
+
+- local buffering of electricity demand
+- smoothing of short-term peaks
+- coordinated charging during low-demand periods
+- reduced peak import requirements from the national grid
+
+If these technologies are deployed at scale, the **effective peak demand seen by the grid could be substantially lower than the raw demand of the city itself**. In that scenario the grid connections and upstream infrastructure required to support the city may be **materially smaller — and therefore less costly — than conventional planning assumptions suggest**.
+
+### Energy-abundance model: SMR or other zero-carbon generation
+
+An alternative architecture would treat electricity not as a constrained resource but as a **strategic abundance**.
+
+In this model the city could host significant on-site generation capacity, potentially including **Small Modular Reactors (SMRs) or other forms of large-scale zero-carbon generation**.
+
+Under this scenario the city could produce a substantial proportion of its electricity locally rather than relying primarily on grid imports.
+
+The implications of this approach could include:
+
+- large-scale electrification of heating and transport
+- high-capacity computing and digital infrastructure
+- hydrogen production and industrial processes
+- long-term energy cost stability
+
+If periods of electricity abundance arise, the city could also support **large-scale electrolysis facilities to produce hydrogen**. Electrolysers can act as flexible electrical loads, absorbing surplus electricity and converting it into storable fuel for transport, industry or long-term energy storage.
+
+However, the SMR-based architecture is currently treated as a **strategic option rather than a dependency**. The development and its core infrastructure should not rely on the availability of SMR technology, given the regulatory, financing and programme uncertainties involved.
+
+### Data centres, heat recovery and district heating
+
+Large electricity connections also create opportunities to co-locate **high-capacity data centre infrastructure** near the primary grid connections serving the city.
+
+Data centres convert almost all of the electricity they consume into heat. Rather than treating this heat as waste, the city could treat it as a **valuable thermal resource**.
+
+Waste heat from data centres could be captured and distributed through **district heating networks**, significantly reducing the energy required to heat buildings across the city.
+
+This approach could be strengthened further through the use of **large-scale underground thermal storage**, sometimes referred to as **seasonal thermal batteries**. These systems allow excess heat produced during periods of high data centre activity to be stored underground and recovered later when heating demand increases.
+
+If implemented at sufficient scale, this combination of **data centre heat recovery, district heating and thermal storage** could materially reduce the amount of electricity required to heat the city.
+
+### Geothermal energy
+
+Alongside heat recovery, the city may also be able to draw on **geothermal energy systems**.
+
+Conventional UK policy has tended to prioritise geothermal development only in locations where natural geothermal “hot spots” exist. However, the area between **Haverhill and Newmarket does not appear to have significant natural geothermal hotspots**, which might traditionally make geothermal development less likely.
+
+This assumption may now need to be reconsidered. The UK possesses extensive deep drilling expertise developed through decades of **North Sea oil and gas exploration**, and advances in hard-rock and deep drilling technologies mean geothermal systems may now be technically feasible in locations that lack natural geothermal reservoirs.
+
+Many modern geothermal designs use **closed-loop systems**, in which fluids circulate through sealed underground pipe networks rather than relying on natural aquifers. These systems significantly reduce environmental risks such as groundwater contamination and can operate without requiring naturally occurring geothermal water reservoirs.
+
+Rough conceptual estimates suggest that **around twenty installations of this scale could theoretically supply the domestic energy needs of a city of one million residents**.
+
+When combined with **district heating networks, underground thermal storage and heat recovery from data centres**, geothermal energy could dramatically reduce the amount of electricity required for heating across the city.
+
+### Early infrastructure provisions
+
+Regardless of the final electricity generation strategy, several provisions appear to be **low-regret design choices**:
+
+- reserving land for **large primary substations**
+- safeguarding corridors for **high-voltage transmission routes**
+- reserving land near grid connections for **energy-intensive infrastructure such as data centres**
+- enabling future expansion of grid connections and local generation
+
+These provisions are relatively inexpensive to include during early planning but extremely difficult to retrofit once the city is built.
 
 # Chapter 2 — Building technology
 
@@ -171,7 +253,7 @@ Each technology (or technology cluster) is assessed against a simple rubric:
 - Design-in now: copious ducting, comms rooms in multi-unit buildings, risers, rooftop access,
   safe antenna mounting rights, street-furniture power/backhaul points
 - Strategy for extending and POPing interconnect points between major networks and FC carrier neutral facilities as a minimum.
-- Networking vision to to attract anchor carriers and routes to make and maintain FC as a major (=high capacity + low cost) UK redundant network backbone location
+- Networking vision to attract anchor carriers and routes to make and maintain FC as a major (=high capacity + low cost) UK redundant network backbone location
 - Wildcards: 6G capabilities (including sensing/positioning), dense edge compute
 
 # Chapter 4 — Digital twins and the Open Source City
@@ -246,7 +328,7 @@ Forest City's "open source city" ambition can be made practical (and non-hype) b
 
 It remains an open question whether Forest City should commission and operate a single "end-to-end" digital twin platform as part of the project, or whether the city should rely on a federation of widely used third-party tools and platforms connected by standards. A unified platform could offer strong benefits (consistency, simplified governance, reduced friction in handovers), but it also carries risks (lock-in, procurement complexity, long-term operational burden, and the challenge of keeping pace with a fast-moving vendor landscape).
 
-Regardless of which delivery model ultimately prevails, the later phases decision is the same: **Forest City should make the digital twin a single source of spatial truth**, and ensure that surveying, design development, construction verification, and handover data can all be ingested into a coherent, maintained twin without bespoke rework.
+Regardless of which delivery model ultimately prevails, the later-phase decision is the same: **Forest City should make the digital twin a single source of spatial truth**, and ensure that surveying, design development, construction verification, and handover data can all be ingested into a coherent, maintained twin without bespoke rework.
 
 Forest City should therefore consider the following minimum responses:
 
