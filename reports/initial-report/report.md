@@ -14,7 +14,7 @@ This report presents the Phase 1 output of the Forest City Future Proof Technolo
 
 The analysis presented here should be understood as work in progress. The detailed modelling, engineering design and financial analysis required to fully substantiate these conclusions will take place in later phases of the programme. However, several technology trends are already sufficiently clear to justify incorporating them into early masterplanning decisions.
 
-In particular, choices made during the initial design of the city—such as the allocation of infrastructure corridors, plant space, utility routes, communications ducting and data governance frameworks—are extremely difficult and expensive to change once construction begins. The purpose of this report is thereforeentify areas where early decisions can preserve long-term flexibility or unlock future technological opportunities.
+In particular, choices made during the initial design of the city—such as the allocation of infrastructure corridors, plant space, utility routes, communications ducting and data governance frameworks—are extremely difficult and expensive to change once construction begins. The purpose of this report is therefore to identify areas where early decisions can preserve long-term flexibility or unlock future technological opportunities.
 
 The report focuses specifically on technologies that could materially influence the physical structure and infrastructure systems of the city, rather than short-lived product or platform choices.
 
@@ -37,7 +37,7 @@ The chapter will likely focus on enabling conditions Forest City can specify—s
 
 This chapter examines how Forest City could design its communications infrastructure as long-lived civic infrastructure rather than relying on ad-hoc carrier deployments. The presence of major fibre routes linking London, Cambridge and Amsterdam, together with fibre corridors along regional transport infrastructure, creates an opportunity to establish a highly resilient connectivity architecture built around multiple district connectivity centres linked by high-capacity fibre rings.
 
-The chapter explores how such an architecture could support distributed data centres, terabit-scale local exchange fabrics and ultra-high-bandwidth computing workloads, while also examining governance models for fibre infrastructure including carrier-built networks, municipal ducting and dark-fibre co-operative approaches. Taken together, these ideas suggest the potential for Forest City to funcs a **distributed hyperscale digital campus**, capable of supporting advanced AI, high-performance computing and data-intensive industries.
+The chapter explores how such an architecture could support distributed data centres, terabit-scale local exchange fabrics and ultra-high-bandwidth computing workloads, while also examining governance models for fibre infrastructure including carrier-built networks, municipal ducting and dark-fibre co-operative approaches. Taken together, these ideas suggest the potential for Forest City to function as a **distributed hyperscale digital campus**, capable of supporting advanced AI, high-performance computing and data-intensive industries.
 
 ### Chapter 4 — Digital twins and the Open Source City
 
@@ -157,7 +157,7 @@ One important factor that could significantly influence the final infrastructure
 
 The headline **~460 MVA peak demand** reflects a conventional planning assumption in which buildings draw power from the grid in real time with limited buffering, storage or local generation capacity. However, emerging storage technologies and local generation (primarily solar) make it increasingly possible to shift and smooth electrical demand over time.
 
-Modern **LiFePO₄ (lithium iron phosphate) battery systems** are sufficiently safe and cost-effective to be deployed at domestic scale. A battery pack roughly the size of a household refrigerator can store enough energy to supply a typical property for at least **24 hours of normal operation**, depending on system efficiency and heating configuration and whether other primary heat sources besides electricity are used (see below)
+Modern **LiFePO₄ (lithium iron phosphate) battery systems** are sufficiently safe and cost-effective to be deployed at domestic scale. A battery pack roughly the size of a household refrigerator can store enough energy to supply a typical property for at least **24 hours of normal operation**, depending on system efficiency and heating configuration and whether other primary heat sources besides electricity are used (see below).
 
 If large numbers of properties within the city were equipped with such storage, with or without local micro generation, and if these systems were orchestrated collectively, the city could effectively operate a **distributed battery fleet**.
 
@@ -362,7 +362,7 @@ Forest City therefore has an opportunity to design connectivity infrastructure f
 
 ## Strategic fibre routes through the site
 
-The proposed Forest City footpenefits from the presence of several significant fibre infrastructure assets in the surrounding area.
+The proposed Forest City footprint benefits from the presence of several significant fibre infrastructure assets in the surrounding area.
 
 Most notably, a major transnational fibre route linking London and Amsterdam passes close to the site and is believed to include a repeater or amplification facility within or near the development boundary.
 
@@ -386,7 +386,7 @@ This combination of international trunk fibre, regional fibre routes and transpo
 
 Rather than treating connectivity as a purely centralised system, Forest City could adopt a distributed connectivity architecture.
 
-One ssible model would be to establish a number of district connectivity centres located throughout the city. These facilities would act as local aggregation points where fibre from buildings, neighbourhoods and mobile networks connects into the wider metropolitan and international fibre network.
+One possible model would be to establish a number of district connectivity centres located throughout the city. These facilities would act as local aggregation points where fibre from buildings, neighbourhoods and mobile networks connects into the wider metropolitan and international fibre network.
 
 Each connectivity centre could include:
 
@@ -423,7 +423,7 @@ Instead, the primary value of a local exchange would be enabling ultra-high-band
 
 Modern compute workloads increasingly involve large volumes of east-west traffic between distributed compute clusters. Examples include distributed GPU training clusters for machine learning, large-scale simulation and modelling, edge computing and data-processing pipelines, and high-bandwidth research networks.
 
-In many cases these rkloads benefit from data-centre-class latency and extremely high throughput between facilities, even when those facilities are located in different buildings.
+In many cases these workloads benefit from data-centre-class latency and extremely high throughput between facilities, even when those facilities are located in different buildings.
 
 By establishing a local exchange fabric interconnecting district connectivity centres and data centres within Forest City, organisations could achieve latency characteristics approaching those of intra-data-centre networks while still operating across multiple independent facilities.
 
