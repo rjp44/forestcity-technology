@@ -33,7 +33,9 @@ The chapter will likely focus on enabling conditions Forest City can specify—s
 
 ### Chapter 3 — Data networking
 
-This chapter will aim to treat connectivity as long-lived civic infrastructure, with a strong bias toward **neutral fibre ducting** and "build it right first time" physical provisions that avoid repeated disruption. It will likely explore the co-dependence between fibre and wireless networks (5G/6G, Wi-Fi evolution, private networks) and propose "design-in now" requirements such as copious ducting, comms spaces in multi-unit buildings, risers, roof access and mounting rights, and street-furniture power/backhaul readiness. The chapter will aim to frame these provisions as an option-preserving foundation for multiple future service models.
+This chapter examines how Forest City could design its communications infrastructure as long-lived civic infrastructure rather than relying on ad-hoc carrier deployments. The presence of major fibre routes linking London, Cambridge and Amsterdam, together with fibre corridors along regional transport infrastructure, creates an opportunity to establish a highly resilient connectivity architecture built around multiple district connectivity centres linked by high-capacity fibre rings.
+
+The chapter explores how such an architecture could support distributed data centres, terabit-scale local exchange fabrics and ultra-high-bandwidth computing workloads, while also examining governance models for fibre infrastructure including carrier-built networks, municipal ducting and dark-fibre co-operative approaches. Taken together, these ideas suggest the potential for Forest City to funcs a **distributed hyperscale digital campus**, capable of supporting advanced AI, high-performance computing and data-intensive industries.
 
 ### Chapter 4 — Digital twins and the Open Source City
 
