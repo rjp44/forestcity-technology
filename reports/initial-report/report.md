@@ -4,19 +4,21 @@
 
 **Authors:** Rob Pickering (rob@pickering.org)
 
-**Status:** Draft v0.0.1 (structure + long-form introduction and executive summary, variable depth of chapter contents)
+**Status:** Draft v0.1.0 (first pass chapter contents)
 
 ---
 
-## Executive summary
+## Executive summary (draft, working technical analysis)
 
-This report is the Phase 1 output of the Forest City 1 **Future Proof Technology Working Group**. It is intended to inform later phase masterplanning and the detailed business case by highlighting technology shifts that **may** materially affect the shape of the city, and by proposing low-regret "design-in now" provisions that **could** preserve optionality over decades.
+This report presents the Phase 1 output of the Forest City Future Proof Technology Working Group. It provides an initial technical analysis of how emerging technologies may influence the long-term design and infrastructure requirements of a new city of one million residents.
 
-Forest City will make a set of early choices—about civils, corridors, plant space, network ducting, access rights, standards and governance—that will be extremely difficult to unwind later. Those choices must remain robust not only under today's technologies, but under likely shifts in energy systems, construction methods, connectivity, sensing, and digital governance. This report is therefore being drafted to focus on **technology shifts that affect the shape of the city**, not short-lived product decisions. It is intended to be usable by other working groups as a practical input to masterplanning and to the business case: identifying what we think **may** change, how those changes **could** impact planning assumptions, and what low-regret provisions **might** preserve optionality.
+The analysis presented here should be understood as work in progress. The detailed modelling, engineering design and financial analysis required to fully substantiate these conclusions will take place in later phases of the programme. However, several technology trends are already sufficiently clear to justify incorporating them into early masterplanning decisions.
 
-The recommendations and priorities summarised here are **very draft**. At this stage, the report structure and early chapter text are being used to frame the problem, identify candidate requirements, and surface likely "no-regret" provisions. The executive summary therefore describes what the report **will** aim to recommend, rather than claiming the chapters already provide complete substantiation. As the chapters are expanded, each recommendation will need evidence, cost/benefit framing, and explicit ownership and delivery implications.
+In particular, choices made during the initial design of the city—such as the allocation of infrastructure corridors, plant space, utility routes, communications ducting and data governance frameworks—are extremely difficult and expensive to change once construction begins. The purpose of this report is thereforeentify areas where early decisions can preserve long-term flexibility or unlock future technological opportunities.
 
-The report is organised into **six chapters**, each reflecting a technology domain where early infrastructure and standards decisions are likely to compound over time.
+The report focuses specifically on technologies that could materially influence the physical structure and infrastructure systems of the city, rather than short-lived product or platform choices.
+
+The analysis presented here draws on discussions within the technology working group together with independent technical research and drafting undertaken during Phase 1 of the programme. The chapters that follow summarise the current state of this work and identify low-regret provisions that can be incorporated into early planning while more detailed technical work continues.
 
 ### Chapter 1 — Energy
 
